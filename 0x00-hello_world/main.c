@@ -8,6 +8,5 @@
  */
 int main(void)
 {
-	printf("c programing");
 	return (0);
 }
