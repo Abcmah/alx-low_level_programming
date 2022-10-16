@@ -1,0 +1,45 @@
+#include <stdio.h>
+
+/**
+ *main - Entry point
+ *Description: Print numbers
+ *Return: Always 0
+ */
+int main(void)
+{
+int a;
+int b;
+int c;
+int d;
+
+for (a = 48; a <= 57; a++)
+{
+for (b = 48; b <= 57; b++)
+{
+for (c = 48; c <= 57; c++)
+{
+for (d = 48; d <= 57; d++)
+{
+if (((d + c) > (a + b) && c >= a) || a < c)
+{
+putchar(a);
+putchar(b);
+putchar(' ');
+putchar(d);
+putchar(c);
+if (a + b + c + d == 227 && a == 57)
+	break;
+else
+{
+	putchar(',');
+	putchar(' ');
+}
+}
+}
+}
+}
+}
+	putchar('\n');
+	return (0);
+}
+
