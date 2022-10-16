@@ -22,11 +22,11 @@ for (d = 48; d <= 57; d++)
 {
 if (((d + c) > (a + b) && c >= a) || a < c)
 {
-putchar(b);
 putchar(a);
+putchar(b);
 putchar(' ');
-putchar(d);
 putchar(c);
+putchar(d);
 if (a + b + c + d == 227 && a == 57)
 	break;
 else
