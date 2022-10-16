@@ -3,7 +3,7 @@
 /**
  *main - Entry point
  *
- *Description: print alphabet\
+ *Description: print alphabet
  *Return: Always 0 for (success)
  */
 int main(void)
