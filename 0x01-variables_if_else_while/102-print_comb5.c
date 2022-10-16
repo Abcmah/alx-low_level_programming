@@ -22,8 +22,8 @@ for (d = 48; d <= 57; d++)
 {
 if (((d + c) > (a + b) && c >= a) || a < c)
 {
-putchar(a);
 putchar(b);
+putchar(a);
 putchar(' ');
 putchar(d);
 putchar(c);
