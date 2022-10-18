@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  *print_last_digit - Returns last digit of a givin output
  *@n: Holds the value passed
@@ -8,6 +9,7 @@ int print_last_digit(int n)
 	int last;
 
 	last = n % 10;
+	_putchar(last);
 
 	return (last);
 }
