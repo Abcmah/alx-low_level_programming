@@ -1,3 +1,5 @@
+#include <ctype.h>
+
 /**
  *_isalpha - Returns 1 if is a letter otherwise 0
  *@c: holds value passed
