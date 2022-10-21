@@ -1,4 +1,8 @@
 #include "main.h"
+/**
+ *print_most_number - Prints numbers
+ *
+ */
 void print_most_number(void)
 {
 	int n;
