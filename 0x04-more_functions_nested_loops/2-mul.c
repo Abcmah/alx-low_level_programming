@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  *mul - Return a mulpt b
  *@a: holds value
