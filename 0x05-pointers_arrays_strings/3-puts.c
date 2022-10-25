@@ -8,9 +8,5 @@
  */
 void _puts(char *str)
 {
-	char len = strlen(str);
-	char str1[len];
-
-	strcpy(str1, str);
-	puts(str1);
+	puts(str);
 }
