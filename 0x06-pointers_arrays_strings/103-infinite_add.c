@@ -27,9 +27,9 @@ void rev_string(char *n)
 
 /**
  * infinite_add - add 2 numbers together
- * @n1: holds the 1st number 
- * @n2: holds 2nd number 
- * @r: pointer 
+ * @n1: holds the 1st number
+ * @n2: holds 2nd number
+ * @r: pointer
  * @size_r: holds buffer size
  * Return: address to calling function
  */
