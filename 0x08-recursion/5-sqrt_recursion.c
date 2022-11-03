@@ -9,5 +9,11 @@
 
 int _sqrt_recursion(int n)
 {
-	return (sqrt(n));
+	if(n == 0 || n == 1)
+	{
+		return n;
+	}
+	for(i = 1; i*i <=n; ++i);
+
+	re
 }
