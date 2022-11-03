@@ -5,9 +5,18 @@ include "main.h"
  */
 void _print_rev_recursion(char *s)
 {
-	if (*s != '\0')
+	int i = 0;
+	char sa[100];
+
+	while (*s != '\0')
 	{
-		_print_rev_recursion(s + 1);
-		_putchar(*s);
+		sa[i] = *(s);
+		i++;
+		s++;
 	}
+	for (; i >= 0; i--)
+	{
+		_putchar(sa[i]);
+	}
+	_putchar('\n');
 }
