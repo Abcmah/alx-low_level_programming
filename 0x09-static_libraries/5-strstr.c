@@ -4,7 +4,7 @@
  **_strstr  - find first occurrence of string.
  * @haystack: char haystack
  * @needle: a perimeter
- * Return: a string 
+ * Return: a string
  */
 char *_strstr(char *haystack, char *needle)
 {
