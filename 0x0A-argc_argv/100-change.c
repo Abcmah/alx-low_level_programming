@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - prints the minimum number of coins to make change for a given amount
- * @argc: number of agrs passed 
+ * @argc: number of agrs passed
  * @argv: arguements arrray
  * Return: number of coins or 1
  **/
