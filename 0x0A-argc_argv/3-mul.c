@@ -1,8 +1,15 @@
 #include <stdio.h>
+#include <stdlib.h>
+/**
+ *main - enter point
+ *@argc: number of args
+ *@argv: holds args
+ *Return 1 for no arg
+ */
 int main(int argc, char *argv[])
 {
-	char *a;
-	char *b;
+	int a;
+	int b;
 
 	if (argc <= 1)
 	{
@@ -11,9 +18,9 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		a = argv[1];
-		b = argv[2];
-		printf("%d\n", (*a * *b));
+		a = atoi(argv[1]);
+		b = atoi(argv[2]);
+		printf("%d\n", (a * b));
 	}
 
 	return (0);
