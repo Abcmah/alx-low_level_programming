@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- *argstostr - this aloso does the concatnation
+ *argstostr - this also does the concatnation
  *@ac: is a parementer a hold a int
  *@av: is a doule poiter double 
  *Return: 0
