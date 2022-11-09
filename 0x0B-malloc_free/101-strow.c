@@ -29,7 +29,6 @@ int count_word(char *s)
 /**
  * **strtow - splits a string into words
  * @str: holds string
- *
  * Return: pointer of strings if its okay or null for err
  */
 char **strtow(char *str)
