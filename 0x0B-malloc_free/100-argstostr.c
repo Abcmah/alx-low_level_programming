@@ -3,7 +3,7 @@
 /**
  *argstostr - this also does the concatnation
  *@ac: is a parementer a hold a int
- *@av: is a doule poiter double 
+ *@av: is a doule poiter
  *Return: 0
  */
 char *argstostr(int ac, char **av)
