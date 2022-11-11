@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- * *_memset - fills memory with a constant byte
- * @s: memory be filled
- * @b: a string to copy
- * @n: hoids number of times to copy 
- * Return: pointer to the memory
+ *_memset - fills memory with a constant byte
+ *@s: memory be filled
+ *@b: a string to copy
+ *@n: hoids number of times to copy
+ *Return: pointer to the memory
  */
 char *_memset(char *s, char b, unsigned int n)
 {
