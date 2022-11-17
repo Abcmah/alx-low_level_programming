@@ -5,6 +5,7 @@
  * @name: hoild a string to be printed
  * f: pointer to a fx
  * Return: void;
+ * f - fx pointer
  */
 void print_name(char *name, void (*f)(char *))
 {
