@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "function_poiters.h"
+#include "function_pointers.h"
 /**
  * print_name - uses a poiter to funtion to print a name
  * @name: hoild a string to be printed
