@@ -3,7 +3,7 @@
 /**
  * print_name - uses a poiter to funtion to print a name
  * @name: hoild a string to be printed
- * f: pointer to a fx
+ * @f: pointer to a fx
  * Return: void;
  * f - fx pointer
  */
