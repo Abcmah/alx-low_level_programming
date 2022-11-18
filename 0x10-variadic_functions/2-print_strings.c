@@ -1,4 +1,5 @@
 #include "variadic_functions.h"
+#include <stdarg.h>
 /**
  * print_strings - prints strings
  * @separator: comma
@@ -6,7 +7,7 @@
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-	int i;
+	unsigned int i;
 	va_list ap;
 	char *arr;
 
