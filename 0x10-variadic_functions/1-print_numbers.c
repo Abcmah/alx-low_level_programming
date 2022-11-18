@@ -1,5 +1,5 @@
 #include "variadic_functions.h"
-
+#include <stdarg>
 /**
  * print_numbers - prints numbers.
  * @separator: sepatates two number
@@ -8,7 +8,7 @@
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list ap;
-	int i;
+	unsigned int i;
 
 	va_start(ap, n);
 
