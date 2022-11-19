@@ -2,20 +2,9 @@
 #include <stdlib.h>
 
 /**
- * main - prints opcodes
- * @argc: number of arguments passed to the fx
- * @argv: array of arguments
- * Return: Always 0 (Success)
- */
-#include <stdlib.h>
-#include <stdio.h>
-
-/**
- *  print_opcodes - print the opcodes of this program
- *  @a: address of the main function
- *  @n: number of bytes to print
- *
- *   Return: void
+ * print_opcodes - print the opcodes of this program
+ * @a: address of the main function
+ * @n: number of bytes to print
  */
 void print_opcodes(char *a, int n)
 {
@@ -28,15 +17,13 @@ void print_opcodes(char *a, int n)
 			printf(" ");
 	}
 	printf("\n");
-
-	}
+}
 
 /**
- * main - prints the opcodes of its own main function
- * @argc: number of arguments passed to the function
- * @argv: array of pointers to arguments
- *
- * Return: always O
+ * main - prints the opcodes
+ * @argc: number of arguments passed to the fx
+ * @argv: elements
+ * Return: always O(success)
  */
 int main(int argc, char **argv)
 {
