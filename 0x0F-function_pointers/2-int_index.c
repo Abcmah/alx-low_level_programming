@@ -9,15 +9,20 @@
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	unsigned int count;
+	int i = 0;
 
-	if (array == NULL || size <= 0 || cmp == NULL)
-		return (-1);
-
-	for (count = 0; count < size; count++)
+	if (size > 0)
 	{
-		if (cmp(array[count]))
-			return (count);
+		if (array != NULL && cmp != NULL)
+		{
+			while (i < size)
+			{
+				if (cmp(array[i]))
+					return (i);
+
+				i++;
+			}
+		}
 	}
 	return (-1);
 }
